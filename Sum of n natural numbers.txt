@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter n");
+        int n = input.nextInt();
+        // declare number variable. 
+        int number = 1;
+        int sum = 0;
+        // code inside while loop will run 5 times.
+        while(number <= n)
+         {
+            sum = sum + number;
+            number++;
+         }
+            System.out.println(sum);
+    }
+}
